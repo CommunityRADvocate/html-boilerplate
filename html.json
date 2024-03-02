@@ -1,0 +1,22 @@
+{
+	// Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"Linked Boilerplate": {
+		"prefix": "!bp",
+		"body": [
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n    <script src=\"script.js\" defer><\/script>\r\n    <title>$1<\/title>\r\n<\/head>\r\n<body>\r\n$2\r\n<\/body>\r\n<\/html>"
+		],
+		"description": "Boilerplate with linked style and script."
+	},
+	
+	"Google Font": {
+		"prefix": "!gf",
+		"body": [
+			"<link rel=\"stylesheet\"\r\n          href=\"https:\/\/fonts.googleapis.com\/css?family=$1\">"
+		],
+		"description": "Add Google Font to head"
+		}
+}
